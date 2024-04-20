@@ -1,0 +1,48 @@
+// --------------------------colors-------------------------------
+$basic-decore-color: #c4c4c4;
+$basic-decore-color-svg: rgb(196, 196, 196, 0.14);
+$secondary-decore-color: #f6f7f9;
+$third-decore-color: #f3f3f3;
+$general-background-color: #fff;
+
+$basic-text-color: #1a202c;
+$headers1-text-color: #1a202c;
+$headers2-text-color: black;
+$header-unselected-items-color: #fff;
+$header-selected-items-color: #1a202c;
+
+$shadow-color: #f3f3f3;
+
+//---------------------------sizes----------------------------------
+
+$general-page-width: 1440px;
+
+$headers1-font-size: 46px;
+$headers2-font-size: 48px;
+$headers3-font-size: 35px;
+$large-font-size: 20px;
+$main-font-size: 18px;
+$small-font-size: 16px;
+$tiny-font-size: 14px;
+
+$padding-main: 50px;
+$gap-main: 20px;
+
+//---------------------------margins\paddings----------------------------------
+$padding-top-section-gap: 100px;
+$side-padding: 50px;
+
+//---------------------------fonts----------------------------------
+$main-font-family: "Plus Jakarta Sans", sans-serif;
+$testemonials-font-family: "Rubik", sans-serif;
+
+$main-font-weight: 400;
+$headers-font-weight: 600;
+$secondary-font-weight: 500;
+$third-font-weight: 700;
+
+//---------------------------BreakPoints------------------------------
+$mobile: 375px;
+$tablet: 768px;
+$tablet-bigger: 1024px;
+$desktop: 1440px;
