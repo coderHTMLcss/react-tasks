@@ -1,6 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Header from './components/Header/Header';
 import { INavItems } from './utils/types';
+import { useWindowSize } from './hooks';
+
 import './App.css';
 
 const navItems: INavItems[] = [
@@ -13,26 +15,11 @@ const navItems: INavItems[] = [
 
 const App = () => {
   const [isOpen, setOpen] = useState(false);
-  const [windowSize, setWindowSize] = useState(window.innerWidth);
-  console.log(windowSize);
-
-
+  const windowSize = useWindowSize()
 
   const handleToggle = () => {
     setOpen(!isOpen);
   }
-
-  const handleResize = () => {
-    setWindowSize(window.innerWidth);
-  }
-
-  useEffect(() => {
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    }
-  }, [])
 
   return (
     <Header

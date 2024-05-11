@@ -6,7 +6,6 @@ const FinishButton = () => {
     const handleFinish = () => {
         setIsFinish(true)
     }
-
     return (
         <>
             <button className="stop__btn" onClick={handleFinish} type="button">Finish</button>

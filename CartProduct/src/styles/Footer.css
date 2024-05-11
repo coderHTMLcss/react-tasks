@@ -1,0 +1,14 @@
+footer {
+    margin-top: auto;
+    background-color: #6d6262;
+    height: 60px;
+}
+
+.footer-div {
+    padding: 20px;
+}
+
+.copyright {
+    margin: 0;
+    text-align: center;
+}

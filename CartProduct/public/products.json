@@ -1,0 +1,38 @@
+[
+    {
+    "id":1,
+    "name":"Вапняк гранульований",
+    "url":"https://agroantal.com.ua/home/products/products29965/variant32819/vapnyak_granulovanij_23.png",
+    "price":"13 310.00"
+},
+{
+    "id":2,
+    "name":"Агрегат глибокорозпушувач АГР-1,7",
+    "url":"https://agroantal.com.ua/home/products/products29356/variant31892/Agregat_glubokorykhlitel_AGR_1_7_1.jpg",
+    "price":"75 690.00"
+},
+{
+    "id":3,
+    "name":"Добриво Суперфосфат простий гранульований P (Ca, S) 19-(20-32)",
+    "url":"https://agroantal.com.ua/home/products/products30485/variant33542/superfosfat_prosty_bigbag_23.png",
+    "price":"23 690.00"
+},
+{
+    "id":4,
+    "name":"Десикант-гербіцид Штефдикват",
+    "url":"https://agroantal.com.ua/home/products/products30378/variant33379/shtefdikvat.png",
+    "price":"3 690.00"
+},
+{
+    "id":5,
+    "name":"Гербіцид Флойд",
+    "url":"https://agroantal.com.ua/home/products/products30495/variant33576/floyd_20l_23_1.jpg",
+    "price":"690.00"
+},
+{
+    "id":6,
+    "name":"Насіння кукурудзи ЕС ПЕРСПЕКТИВ",
+    "url":"https://agroantal.com.ua/home/products/products29929/variant32782/es_perspektyv.png",
+    "price":"6 127.00"
+}
+]
