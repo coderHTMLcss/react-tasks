@@ -1,24 +1,38 @@
-import Accordion from "./components/Accordion/Accordion";
+import Accordion from "./components/Accordion";
+export interface FagItem {
+  q: string;
+  a: string
+}
 
-function App() {
-  const accordionItems = [
-    { title: "Section 1", text: "This is my text for Section 1" },
-    { title: "Section 2", text: "This is my text for Section 2" },
-    { title: "Section 3", text: "This is my text for Section 3" },
-  ];
+const faqList: FagItem[] = [
+  {
+    q: "Як зробити замовлення?",
+    a: "Щоб зробити замовлення, виберіть товари, додайте їх у кошик та натисніть 'Оформити замовлення'."
+  },
+  {
+    q: "Які способи оплати доступні?",
+    a: "Ви можете оплатити замовлення банківською картою або через електронні гаманці."
+  },
+  {
+    q: "Чи є можливість повернення товару?",
+    a: "Так, ви можете повернути товар протягом 14 днів з моменту отримання, якщо він не був використаний."
+  },
+  {
+    q: "Скільки часу займає доставка?",
+    a: "Доставка зазвичай займає від 2 до 5 робочих днів залежно від вашого місцезнаходження."
+  },
+  {
+    q: "Як зв'язатися зі службою підтримки?",
+    a: "Ви можете зв'язатися з нами через електронну пошту або за номером телефону, вказаними на сайті."
+  }
+];
 
+const App = () => {
   return (
     <>
-      {accordionItems.map((item, index) => (
-        <Accordion key={`${item.text} + ${index}`} title={item.title} text={item.text} />
-      ))}
+      <Accordion faqList={faqList} />
     </>
-  );
+  )
 }
 
 export default App;
-
-
-// Я взяв за приклад структуру HTML & Css за посиланням https://www.w3schools.com/howto/howto_js_accordion.asp
-
-
